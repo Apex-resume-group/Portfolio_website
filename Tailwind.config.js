@@ -16,12 +16,12 @@ module.exports = {
       colors: {
         brand: {
          crimson: '#2980B9',
-    'crimson-dark': '#1A6A9A',
-    black: '#1E2D3D',
-    gold: '#5DADE2',
-    'gold-light': '#AED6F1',
-    white: '#FFFFFF',
-    offwhite: '#ECF5FB', 
+        'crimson-dark': '#1A6A9A',
+        black: '#1E2D3D',
+        gold: '#5DADE2',
+        'gold-light': '#AED6F1',
+        white: '#FFFFFF',
+        offwhite: '#ECF5FB', 
         },
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
