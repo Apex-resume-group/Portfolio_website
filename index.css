@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600&family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-heading: 'Playfair Display', Georgia, serif;
+    --font-body: 'Inter', -apple-system, sans-serif;
+    --background: 30 25% 97%;
+    --foreground: 0 0% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 10%;
+    --primary: 350 84% 42%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 30 15% 93%;
+    --muted-foreground: 0 0% 40%;
+    --accent: 43 67% 52%;
+    --accent-foreground: 0 0% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 30 15% 88%;
+    --input: 30 15% 88%;
+    --ring: 43 67% 52%;
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 0 0% 6%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 10%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 10%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 350 84% 42%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 43 67% 52%;
+    --accent-foreground: 0 0% 10%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 43 67% 52%;
+  }
+}
+
+@layer base {
+  * { @apply border-border outline-ring/50; }
+  body { @apply bg-background text-foreground; font-family: var(--font-body); }
+  h1,h2,h3,h4,h5,h6 { font-family: var(--font-heading); }
+}
+
+html { scroll-behavior: smooth; }
+
+/* Gold shimmer CTA */
+@keyframes goldShimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+.gold-shimmer {
+  background: linear-gradient(90deg, #C9A227 0%, #F5D76E 30%, #D4AF37 50%, #F5D76E 70%, #C9A227 100%);
+  background-size: 200% auto;
+  animation: goldShimmer 3s linear infinite;
+}
+.gold-shimmer:hover { animation-duration: 1.2s; }
+
+/* Social proof ticker */
+@keyframes ticker {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.ticker-scroll { animation: ticker 35s linear infinite; }
+.ticker-scroll:hover { animation-play-state: paused; }
+
+/* Company logo marquee */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.marquee-scroll { animation: marquee 28s linear infinite; }
+
+/* Light streak overlay */
+@keyframes lightStreak {
+  0% { transform: translateX(-150%) skewX(-20deg); opacity: 0; }
+  30% { opacity: 0.15; }
+  70% { opacity: 0.15; }
+  100% { transform: translateX(300%) skewX(-20deg); opacity: 0; }
+}
+.hero-streak::before {
+  content: '';
+  position: absolute;
+  top: -20%;
+  left: 0;
+  width: 120px;
+  height: 140%;
+  background: linear-gradient(90deg, transparent, rgba(212,175,55,0.12), transparent);
+  animation: lightStreak 7s ease-in-out infinite;
+  pointer-events: none;
+}
+
+/* Particle dots */
+@keyframes float {
+  0%, 100% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
+  33% { transform: translateY(-20px) translateX(10px); opacity: 0.6; }
+  66% { transform: translateY(10px) translateX(-8px); opacity: 0.4; }
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #1A1A1A; }
+::-webkit-scrollbar-thumb { background: #D4AF37; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #C41230; }
