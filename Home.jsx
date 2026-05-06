@@ -34,7 +34,7 @@ export default function Home() {
     <div>
       {/* ── HERO ─────────────────────────────────────────── */}
       <section className="relative min-h-screen flex items-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-brand-crimson via-[#8B0000] to-brand-black" />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#1E2D3D] via-[#2C3E55] to-[#1B2D42]" />
         <div className="absolute inset-0 hero-streak overflow-hidden" />
         {/* dot grid */}
         <div className="absolute inset-0 opacity-[0.04]" style={{ backgroundImage: 'radial-gradient(circle at 1px 1px, #D4AF37 1px, transparent 0)', backgroundSize: '42px 42px' }} />
@@ -50,14 +50,14 @@ export default function Home() {
           </motion.span>
 
           <motion.h1 initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3, duration: 0.8 }}
-            className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.1] max-w-4xl">
-            Stop Getting Overlooked.{' '}
-            <span className="text-brand-gold italic">Start Getting Hired.</span>
+            className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-[1.1] max-w-4xl">
+            Your Experience Is Valuable.<br />
+            <span className="text-brand-gold italic">Your Resume Should Prove It.</span>
           </motion.h1>
 
           <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5, duration: 0.7 }}
-            className="mt-6 font-body text-lg sm:text-xl text-white/75 max-w-2xl leading-relaxed">
-            Certified career experts helping thousands of candidates land the roles they truly deserve — from first job to the boardroom.
+            className="mt-6 font-body text-lg sm:text-xl text-white/75 max-w-4xl leading-relaxed">
+            At Apex Resume Group, we transform your skills and achievements into a powerful, ATS-optimized resume that gets you noticed by the right employers — at every stage of your career.
           </motion.p>
 
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.7, duration: 0.7 }}
@@ -94,13 +94,13 @@ export default function Home() {
       {/* ── WHY CHOOSE US ────────────────────────────────── */}
       <section className="py-20 lg:py-28 bg-brand-offwhite">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHead eyebrow="Why Choose Us" title="Six Pillars of Career Excellence" subtitle="Every service we deliver is built on a foundation of certification, technology, and genuine human care." />
+          <SectionHead eyebrow="Why Choose Us" title="Six Reasons Professionals Choose Apex" subtitle="We combine professional insight, proven strategy, and personalized attention to deliver results that speak for themselves." />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {PILLARS.map((p, i) => {
               const PIcon = p.icon;
               return <Reveal key={i} delay={i * 0.08}>
                 <div className="bg-white rounded-2xl p-8 border border-brand-gold/8 hover:border-brand-gold/30 hover:shadow-xl transition-all duration-500 group h-full">
-                  <div className="w-12 h-12 rounded-xl bg-brand-crimson/8 group-hover:bg-brand-crimson flex items-center justify-center mb-5 transition-colors duration-400">
+                  <div className="w-12 h-12 rounded-xl bg-brand-gold/8 group-hover:bg-brand-gold flex items-center justify-center mb-5 transition-colors duration-400">
                     <PIcon className="w-6 h-6 text-brand-crimson group-hover:text-white transition-colors duration-400" />
                   </div>
                   <h3 className="font-heading text-xl font-bold text-brand-black mb-3">{p.title}</h3>
@@ -124,13 +124,13 @@ export default function Home() {
                   <div className="shrink-0">
                     <div className="relative w-16 h-16 rounded-2xl bg-brand-black flex items-center justify-center">
                       <span className="font-heading text-2xl font-bold text-brand-gold">{s.n}</span>
-                      <div className="absolute -top-1.5 -right-1.5 w-6 h-6 rounded-full bg-brand-crimson flex items-center justify-center">
+                      <div className="absolute -top-1.5 -right-1.5 w-6 h-6 rounded-full bg-brand-gold flex items-center justify-center">
                         <SIcon className="w-3 h-3 text-white" />
                       </div>
                     </div>
                   </div>
                   <div>
-                    <h3 className="font-heading text-xl font-bold text-brand-black mb-2.5 group-hover:text-brand-crimson transition-colors duration-300">{s.title}</h3>
+                    <h3 className="font-heading text-xl font-bold text-brand-black mb-2.5 group-hover:text-brand-gold transition-colors duration-300">{s.title}</h3>
                     <p className="font-body text-sm text-brand-black/55 leading-relaxed">{s.body}</p>
                   </div>
                 </div>
@@ -177,7 +177,7 @@ export default function Home() {
 
       {/* ── TRANSFORMATION BANNER ────────────────────────── */}
       <section className="relative py-24 overflow-hidden">
-        <div className="absolute inset-0 bg-brand-crimson" />
+        <div className="absolute inset-0 bg-brand-black" />
         <div className="absolute inset-0 opacity-15" style={{ background: 'radial-gradient(ellipse at 70% 50%, rgba(212,175,55,0.25), transparent 60%)' }} />
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 text-center">
           <Reveal>

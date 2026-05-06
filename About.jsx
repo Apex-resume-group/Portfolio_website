@@ -6,7 +6,7 @@ import BrandLogo from '../components/ui/BrandLogo';
 import GoldBtn from '../components/ui/GoldBtn';
 
 const TEAM = [
-  { name: 'Sarah Mitchell',      role: 'Founder & Lead Career Strategist',       cred: 'CDI Certified Executive Resume Master',    bio: 'Sarah founded Candidate Help Desk after 15 years as a corporate recruiter and hiring director at Fortune 500 companies. She has personally reviewed over 50,000 resumes and coached hundreds of executives into their defining career moments.' },
+  { name: 'Alexis Mathis',      role: 'Founder & Lead Career Strategist',       cred: 'CDI Certified Executive Resume Master',    bio: 'Sarah founded Candidate Help Desk after 15 years as a corporate recruiter and hiring director at Fortune 500 companies. She has personally reviewed over 50,000 resumes and coached hundreds of executives into their defining career moments.' },
   { name: 'James Harrington',    role: 'Director of Career Coaching',             cred: 'Certified Career Coach | MBTI Practitioner', bio: 'James brings 12 years of career counselling experience across technology, finance, and consulting sectors. He specialises in executive career transitions, leadership positioning, and interview performance coaching.' },
   { name: 'Rebecca Torres',      role: 'Executive Resume Master',                 cred: 'CERM | Career Management Alliance Member',   bio: 'Rebecca has written over 3,000 executive resumes and coached C-suite candidates at Google, McKinsey, and Goldman Sachs. Her speciality is translating career complexity into clear, compelling leadership narratives.' },
   { name: 'Marcus Webb',         role: 'LinkedIn & Digital Brand Strategist',     cred: 'LinkedIn Certified Professional',            bio: 'Marcus has optimised over 5,000 LinkedIn profiles and consulted with hiring teams across multiple industries on digital talent attraction. He understands both sides of the recruiter-candidate relationship intimately.' },
@@ -20,7 +20,7 @@ const VALUES = [
 ];
 
 const MILESTONES = [
-  { year: '2015', event: 'Candidate Help Desk founded by Sarah Mitchell, serving 50 clients in year one.' },
+  { year: '2015', event: 'Apex Resume Group founded by Alexis Mathis, serving 50 clients in year one.' },
   { year: '2017', event: 'Achieved CDI Certified Executive Resume Master status — the highest credential in the industry.' },
   { year: '2019', event: 'Reached 2,000 resumes crafted milestone. Expanded team to include specialist coaches and LinkedIn strategists.' },
   { year: '2021', event: '5,000 resumes milestone. Launched Interview Prep and Career Coaching service lines.' },
@@ -41,16 +41,16 @@ export default function About() {
             <Reveal delay={0.2}>
               <span className="inline-block text-brand-gold font-body text-xs font-semibold uppercase tracking-widest mb-4 border border-brand-gold/30 px-4 py-1.5 rounded-full">Our Story</span>
               <h1 className="font-heading text-4xl lg:text-5xl font-bold text-white leading-tight">
-                Born from the Belief That Every Candidate Deserves a <em className="text-brand-gold not-italic">Fair Chance</em>
+                Built on the Belief That Talent Should <em className="text-brand-gold not-italic">Never Go Unnoticed</em>
               </h1>
               <p className="mt-5 font-body text-sm text-white/60 leading-relaxed">
-                Candidate Help Desk was founded in 2015 by Sarah Mitchell after 15 years inside corporate hiring — reviewing resumes, conducting interviews, and watching qualified candidates get overlooked because their documents didn't reflect their true capability. She had seen too many talented professionals lose life-changing opportunities to a badly formatted PDF.
+                Apex Resume Group was founded with a single observation: too many qualified professionals were being overlooked — not because of their abilities, but because their resumes failed to tell their story.
               </p>
               <p className="mt-4 font-body text-sm text-white/60 leading-relaxed">
-                What started as a small consultancy serving 50 clients in year one has grown into a team of certified career experts that has now crafted over 12,400 resumes, placed 500+ executives, and maintained a 96% client satisfaction rate across 40+ industries worldwide.
+                What began as a boutique career consultancy has grown into a team of dedicated resume strategists and career experts serving professionals across every industry and career stage. From entry-level candidates to C-suite executives, we have helped thousands land roles they truly deserved.
               </p>
               <p className="mt-4 font-body text-sm text-white/60 leading-relaxed">
-                The mission has never changed: help every candidate show up in the job market as the best, most accurate version of themselves — and get the outcome they have earned.
+                Our mission has never changed: to ensure every professional walks into the job market with a resume that accurately reflects their value, commands attention, and opens the right doors.
               </p>
             </Reveal>
           </div>
@@ -133,7 +133,7 @@ export default function About() {
             <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight italic">
               "We exist to close the gap between the talent you have and the opportunities you deserve."
             </h2>
-            <p className="mt-6 font-body text-white/70 text-lg">— Sarah Mitchell, Founder, Candidate Help Desk</p>
+            <p className="mt-6 font-body text-white/70 text-lg">— Alexis Mathis, Founder, Apex resume group</p>
             <div className="mt-10">
               <GoldBtn to="/contact" size="lg">Start Working With Us</GoldBtn>
             </div>

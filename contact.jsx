@@ -31,7 +31,7 @@ export default function Contact() {
     e.preventDefault();
     const body = encodeURIComponent(`Name: ${form.name}\nEmail: ${form.email}\nService of Interest: ${form.service}\n\nMessage:\n${form.message}`);
     const subject = encodeURIComponent(form.subject || 'Career Services Enquiry — Candidate Help Desk');
-    window.location.href = `mailto:candidate.helpdesk.9@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:alexismathis.resume.careers@gmail.com?subject=${subject}&body=${body}`;
     setSubmitted(true);
   };
 
@@ -47,10 +47,10 @@ export default function Contact() {
             </h1>
             <p className="mt-4 font-body text-white/55 text-base">We typically respond within 2 business hours.</p>
             <div className="mt-6">
-              <a href="mailto:candidate.helpdesk.9@gmail.com"
+              <a href="mailto:alexismathis.resume.careers@gmail.com"
                 className="inline-flex items-center gap-3 font-body text-2xl sm:text-3xl font-bold text-brand-gold hover:text-brand-gold-light transition-colors duration-300">
                 <Mail className="w-7 h-7" />
-                candidate.helpdesk.9@gmail.com
+                alexismathis.resume.careers@gmail.com
               </a>
             </div>
           </Reveal>
@@ -83,7 +83,7 @@ export default function Contact() {
                     </div>
                     <h3 className="font-heading text-2xl font-bold text-white">Your email client should have opened!</h3>
                     <p className="font-body text-white/50 text-sm mt-2">We look forward to connecting with you shortly.</p>
-                    <p className="font-body text-brand-gold/60 text-xs mt-4">If it didn't open, email us directly at candidate.helpdesk.9@gmail.com</p>
+                    <p className="font-body text-brand-gold/60 text-xs mt-4">If it didn't open, email us directly at alexismathis.resume.careers@gmail.com</p>
                     <button onClick={() => setSubmitted(false)} className="mt-6 text-brand-gold/50 font-body text-sm hover:text-brand-gold transition-colors">Send another message</button>
                   </motion.div>
                 ) : (
@@ -141,7 +141,7 @@ export default function Contact() {
             <Reveal delay={0.15}>
               {/* Contact Info Cards */}
               {[
-                { icon: Mail,        title: 'Email Us',           val: 'candidate.helpdesk.9@gmail.com', sub: 'We respond within 2 business hours', href: 'mailto:candidate.helpdesk.9@gmail.com' },
+                { icon: Mail,        title: 'Email Us',           val: 'alexismathis.resume.careers@gmail.com', sub: 'We respond within 2 business hours', href: 'mailto:alexismathis.resume.careers@gmail.com' },
                 { icon: MessageSquare, title: 'Live Chat',         val: 'Available 9am–6pm EST',          sub: 'Mon–Fri, weekdays only' },
                 { icon: Calendar,    title: 'Book a Consultation', val: 'Free 30-minute session',         sub: 'No obligation, completely free' },
               ].map(({ icon: Icon, title, val, sub, href }, i) => (

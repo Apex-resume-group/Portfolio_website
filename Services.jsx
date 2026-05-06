@@ -105,7 +105,7 @@ export default function Services() {
   return (
     <div>
       <section className="bg-brand-black py-24 text-center px-4">
-        <SectionHead light eyebrow="Full Service Suite" title="Everything You Need to Land the Role You Deserve" subtitle="Four deeply detailed career services, each designed with one outcome in mind — your offer letter." />
+        <SectionHead light eyebrow="Full Service Suite" title="Everything You Need to Get Hired — In One Place" subtitle="From resume writing to interview coaching — every service we offer is designed with a single purpose: getting you the offer you deserve." />
         <div className="flex flex-wrap justify-center gap-4 mt-2">
           {[['Resume Building','#resume'],['Interview Prep','#interview'],['Career Coaching','#coaching'],['Job Matching','#jobs']].map(([l,h]) => (
             <a key={l} href={h} className="px-5 py-2.5 rounded-lg border border-brand-gold/30 text-brand-gold font-body text-sm hover:bg-brand-gold/10 transition-colors">{l}</a>

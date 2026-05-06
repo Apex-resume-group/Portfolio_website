@@ -79,9 +79,9 @@ export default function Footer() {
                 <Send className="w-4 h-4 text-brand-black" />
               </button>
             </div>
-            <a href="mailto:candidate.helpdesk.9@gmail.com" className="flex items-center gap-2 text-brand-gold hover:text-brand-gold-light transition-colors group">
+            <a href="mailto:Alexismathis.resume.careers@gmail.com" className="flex items-center gap-2 text-brand-gold hover:text-brand-gold-light transition-colors group">
               <Mail className="w-4 h-4" />
-              <span className="font-body text-xs group-hover:underline">candidate.helpdesk.9@gmail.com</span>
+              <span className="font-body text-xs group-hover:underline">alexismathis.resume.careers@gmail.com</span>
             </a>
           </div>
         </div>

@@ -8,25 +8,25 @@
   :root {
     --font-heading: 'Playfair Display', Georgia, serif;
     --font-body: 'Inter', -apple-system, sans-serif;
-    --background: 30 25% 97%;
-    --foreground: 0 0% 10%;
+    --background: 210 30% 96%;
+    --foreground: 210 30% 10%;
     --card: 0 0% 100%;
     --card-foreground: 0 0% 10%;
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 10%;
-    --primary: 350 84% 42%;
+    --primary: 204 62% 47%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 0 0% 10%;
+    --secondary: 210 30% 20%;
     --secondary-foreground: 0 0% 98%;
-    --muted: 30 15% 93%;
-    --muted-foreground: 0 0% 40%;
-    --accent: 43 67% 52%;
-    --accent-foreground: 0 0% 10%;
+    --muted: 210 20% 90%;
+    --muted-foreground: 210 15% 40%;
+    --accent: 204 62% 47%;
+    --accent-foreground: 0 0% 100%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 30 15% 88%;
-    --input: 30 15% 88%;
-    --ring: 43 67% 52%;
+    --border: 210 20% 85%;
+    --input: 210 20% 85%;
+    --ring: 204 62% 47%;
     --radius: 0.5rem;
   }
   .dark {
@@ -66,7 +66,7 @@ html { scroll-behavior: smooth; }
   100% { background-position: 200% center; }
 }
 .gold-shimmer {
-  background: linear-gradient(90deg, #C9A227 0%, #F5D76E 30%, #D4AF37 50%, #F5D76E 70%, #C9A227 100%);
+  background: linear-gradient(90deg, #1A6A9A 0%, #5DADE2 30%, #2980B9 50%, #5DADE2 70%, #1A6A9A 100%);
   background-size: 200% auto;
   animation: goldShimmer 3s linear infinite;
 }
@@ -115,5 +115,5 @@ html { scroll-behavior: smooth; }
 
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: #1A1A1A; }
-::-webkit-scrollbar-thumb { background: #D4AF37; border-radius: 3px; }
-::-webkit-scrollbar-thumb:hover { background: #C41230; }
+::-webkit-scrollbar-thumb {  background: #2980B9; border-radius: 3px;  }
+::-webkit-scrollbar-thumb:hover { background: #1E2D3D; }

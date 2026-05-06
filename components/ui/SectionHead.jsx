@@ -16,7 +16,7 @@ export default function SectionHead({ eyebrow, title, subtitle, light = false, c
         </span>
       )}
       <h2 className={`font-heading text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight ${light ? 'text-white' : 'text-brand-black'}`}>
-        jkjefekee
+        {title}
       </h2>
       {subtitle && (
         <p className={`mt-4 font-body text-base lg:text-lg max-w-2xl leading-relaxed ${center ? 'mx-auto' : ''} ${light ? 'text-white/65' : 'text-brand-black/55'}`}>

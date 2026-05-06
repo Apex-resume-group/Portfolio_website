@@ -53,10 +53,10 @@ export default function Credentials() {
                 The Credential That Sets Us <em className="text-brand-gold not-italic">Apart</em>
               </h1>
               <p className="mt-5 font-body text-sm text-white/60 leading-relaxed">
-                The CDI Certified Executive Resume Master (CERM) designation is the highest professional credential in the career services industry — awarded by Career Directors International following rigorous examination, portfolio review, and demonstrated mastery of executive-level career strategy.
+                The career services industry is largely unregulated — anyone can claim to be a resume expert. At Apex Resume Group, we hold ourselves to a higher standard, bringing certified expertise, proven methodology, and genuine accountability to every client we serve.
               </p>
               <p className="mt-4 font-body text-sm text-white/60 leading-relaxed">
-                In a job market flooded with unregulated resume mills and AI-generated templates, our certification represents a commitment to the client's outcome that most services are simply unable to make. When your career is on the line, credentials are not a nice-to-have — they are the difference between an offer and a rejection.
+               In a market flooded with generic templates and AI-generated documents, our commitment to quality sets us apart. When your career is on the line, you deserve more than a cookie-cutter resume — you deserve a strategic partner who is invested in your success from start to finish.
               </p>
               <div className="mt-6 space-y-2">
                 {['Passed rigorous CDI certification examinations','Demonstrated mastery of executive career strategy','Ongoing continuing education requirements','Portfolio-reviewed by industry peers','Bound by professional ethics code'].map((item, i) => (
