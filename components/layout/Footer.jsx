@@ -33,7 +33,7 @@ export default function Footer() {
             <div className="flex items-center gap-3">
               <BrandLogo size="sm" />
               <div>
-                <p className="font-heading text-brand-gold font-bold text-base leading-tight">Candidate Help Desk</p>
+                <p className="font-heading text-brand-gold font-bold text-base leading-tight">Apex Resume Group</p>
                 <p className="font-body text-white/40 text-xs tracking-widest mt-0.5">CDI CERTIFIED</p>
               </div>
             </div>
@@ -87,7 +87,7 @@ export default function Footer() {
         </div>
 
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="font-body text-xs text-brand-gold/50">© {new Date().getFullYear()} Candidate Help Desk. All rights reserved.</p>
+          <p className="font-body text-xs text-brand-gold/50">© {new Date().getFullYear()} Apex Resume Group. All rights reserved.</p>
           <div className="flex gap-5">
             <a href="#" className="font-body text-xs text-white/30 hover:text-brand-gold transition-colors">Privacy Policy</a>
             <a href="#" className="font-body text-xs text-white/30 hover:text-brand-gold transition-colors">Terms of Service</a>

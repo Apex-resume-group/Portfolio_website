@@ -59,7 +59,7 @@ export default function Blog() {
           <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
             The Career Intelligence <em className="text-brand-gold not-italic">Hub</em>
           </h1>
-          <p className="mt-4 font-body text-white/60 text-lg max-w-2xl mx-auto">Certified career insights, job search strategies, and industry guides — from the experts at Candidate Help Desk.</p>
+          <p className="mt-4 font-body text-white/60 text-lg max-w-2xl mx-auto">Certified career insights, job search strategies, and industry guides — from the experts at Apex Resume Group.</p>
         </div>
       </section>
 

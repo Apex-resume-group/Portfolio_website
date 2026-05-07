@@ -96,7 +96,7 @@ const FAQS = [
   { q: 'Can I purchase the Tailored Resume without the Master Resume first?', a: 'Yes — if you already have a strong foundational resume, we can work directly from it to build a tailored version for your target role. However, clients who begin with the Master Resume consistently report that their tailored applications are stronger, faster to produce, and more strategically aligned because the foundation is already built to the highest possible standard.' },
   { q: 'How long does it take to receive my documents?', a: 'The Master Resume typically takes 3–5 business days. Tailored Resumes are delivered within 2–3 business days. The Executive Document Suite takes 5–7 business days given the scope of documents. LinkedIn optimization is completed within 3–4 business days. Rush options are available — ask your advisor for availability.' },
   { q: 'What if I am not satisfied with the final documents?', a: 'We offer unlimited revisions until you are genuinely satisfied with your career documents. In the rare case that we cannot meet your expectations after revision, we honor a full refund guarantee. Your trust is more important than a single transaction.' },
-  { q: 'Will my documents be written by a real human expert?', a: 'Every document at Candidate Help Desk is written, reviewed, and refined by a CDI Certified Professional Resume Writer or Certified Executive Resume Master — a credentialed human expert with deep career strategy experience. While we use AI tools to accelerate research and keyword analysis, every document is authored and quality-checked by your dedicated human advisor.' },
+  { q: 'Will my documents be written by a real human expert?', a: 'Every document at Apex Resume Group is written, reviewed, and refined by a CDI Certified Professional Resume Writer or Certified Executive Resume Master — a credentialed human expert with deep career strategy experience. While we use AI tools to accelerate research and keyword analysis, every document is authored and quality-checked by your dedicated human advisor.' },
 ];
 
 /* ─── Package Card Component ───────────────────────────────────────────────── */
@@ -104,7 +104,7 @@ function PackageCard({ pkg }) {
   const PIcon = pkg.icon;
 
   const openEmail = () => {
-    const subject = encodeURIComponent(`Pricing Inquiry — ${pkg.name} — Candidate Help Desk`);
+    const subject = encodeURIComponent(`Pricing Inquiry — ${pkg.name} — Apex Resume Group`);
     const body = encodeURIComponent(`Hi,\n\nI'm interested in the ${pkg.name} package. Could you please send me a personalized quote?\n\nName: \nCareer Level: \nTarget Role/Industry: \nTimeline: `);
     window.location.href = `mailto:candidate.helpdesk.9@gmail.com?subject=${subject}&body=${body}`;
   };

@@ -7,37 +7,37 @@ const reviews = [
     name: 'Amanda Torres',
     title: 'Marketing Director at HubSpot',
     service: 'Executive Resume + Career Coaching',
-    text: 'Before Candidate Help Desk, I had been applying to over 200 jobs with the same tired resume and getting absolutely nowhere. I was starting to doubt my own qualifications. The team rewrote my resume from scratch, repositioned my experience around measurable outcomes, and coached me through three rounds of interviews at HubSpot. I received an offer within five weeks — at a salary 35% higher than my previous role. This service genuinely changed my life trajectory.',
+    text: 'Before Apex Resume Group, I had been applying to over 200 jobs with the same tired resume and getting absolutely nowhere. I was starting to doubt my own qualifications. The team rewrote my resume from scratch, repositioned my experience around measurable outcomes, and coached me through three rounds of interviews at HubSpot. I received an offer within five weeks — at a salary 35% higher than my previous role. This service genuinely changed my life trajectory.',
   },
   {
     name: 'David Kim',
     title: 'Senior Software Engineer at Microsoft',
     service: 'Tech Resume + Interview Prep',
-    text: 'I knew my technical skills were strong, but I could never get past the resume screening stage at top tech companies. The Candidate Help Desk team rebuilt my resume with the exact keyword patterns that ATS systems at FAANG companies look for, and their mock interview sessions prepared me for behavioral questions I had always struggled with. I got callbacks from Microsoft, Google, and Amazon within two weeks of sending out my new resume. Microsoft made an offer before I even finished the other interview loops.',
+    text: 'I knew my technical skills were strong, but I could never get past the resume screening stage at top tech companies. The Apex Resume Group team rebuilt my resume with the exact keyword patterns that ATS systems at FAANG companies look for, and their mock interview sessions prepared me for behavioral questions I had always struggled with. I got callbacks from Microsoft, Google, and Amazon within two weeks of sending out my new resume. Microsoft made an offer before I even finished the other interview loops.',
   },
   {
     name: 'Rachel Foster',
     title: 'Chief Nursing Officer at Mayo Clinic',
     service: 'Healthcare Executive Resume',
-    text: 'As a healthcare professional, I needed a resume that communicated both clinical expertise and leadership capability. The team at Candidate Help Desk understood the unique language of healthcare hiring and produced a document that positioned me as a strategic leader, not just a skilled nurse. Within three months I was offered the CNO role at one of the most prestigious medical institutions in the country. Their understanding of the healthcare industry was truly exceptional.',
+    text: 'As a healthcare professional, I needed a resume that communicated both clinical expertise and leadership capability. The team at Apex Resume Group understood the unique language of healthcare hiring and produced a document that positioned me as a strategic leader, not just a skilled nurse. Within three months I was offered the CNO role at one of the most prestigious medical institutions in the country. Their understanding of the healthcare industry was truly exceptional.',
   },
   {
     name: 'Marcus Williams',
     title: 'VP of Sales at Salesforce',
     service: 'Executive Resume + LinkedIn Optimization',
-    text: 'I was a top performer being overlooked for VP-level roles because my resume read like a list of duties instead of a track record of revenue impact. Candidate Help Desk transformed my materials into a compelling executive narrative — every bullet point tied to a number, every section designed to demonstrate strategic value. Recruiters started reaching out within days of my LinkedIn update. Three months later, I accepted the VP of Sales position at Salesforce.',
+    text: 'I was a top performer being overlooked for VP-level roles because my resume read like a list of duties instead of a track record of revenue impact. Apex Resume Group transformed my materials into a compelling executive narrative — every bullet point tied to a number, every section designed to demonstrate strategic value. Recruiters started reaching out within days of my LinkedIn update. Three months later, I accepted the VP of Sales position at Salesforce.',
   },
   {
     name: 'Elena Petrova',
     title: 'Product Manager at Stripe',
     service: 'Career Change Resume + Coaching',
-    text: 'Transitioning from academic research to product management seemed impossible until I found Candidate Help Desk. They helped me reframe my PhD research as product thinking, my teaching as stakeholder management, and my publications as evidence of analytical rigor. The career coach walked me through exactly how to tell my pivot story in interviews. I went from feeling like an imposter to receiving three competing offers in the tech industry within eight weeks.',
+    text: 'Transitioning from academic research to product management seemed impossible until I found Apex Resume Group. They helped me reframe my PhD research as product thinking, my teaching as stakeholder management, and my publications as evidence of analytical rigor. The career coach walked me through exactly how to tell my pivot story in interviews. I went from feeling like an imposter to receiving three competing offers in the tech industry within eight weeks.',
   },
   {
     name: 'Robert Chen',
     title: 'Managing Director at Goldman Sachs',
     service: 'Executive Board Resume',
-    text: 'At the Managing Director level, your resume needs to tell a story of institutional impact, not individual contribution. The Candidate Help Desk team crafted a two-page executive dossier that positioned my 20-year career as a coherent narrative of value creation and strategic leadership. The board-level formatting was impeccable. Two executive recruiters told me it was the most polished resume they had ever received in financial services.',
+    text: 'At the Managing Director level, your resume needs to tell a story of institutional impact, not individual contribution. The Apex Resume Group team crafted a two-page executive dossier that positioned my 20-year career as a coherent narrative of value creation and strategic leadership. The board-level formatting was impeccable. Two executive recruiters told me it was the most polished resume they had ever received in financial services.',
   },
 ];
 

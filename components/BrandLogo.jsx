@@ -18,7 +18,7 @@ export default function BrandLogo({ size = 'md', className = '' }) {
       height={s.outer}
       viewBox={`0 0 ${s.outer} ${s.outer}`}
       className={className}
-      aria-label="Candidate Help Desk Logo"
+      aria-label="Apex Resume Group Logo"
     >
       {/* Outer serrated border */}
       <circle cx={half} cy={half} r={half - 1} fill="#1A1A1A" stroke="#D4AF37" strokeWidth={s.outer * 0.03} strokeDasharray={`${s.outer * 0.04} ${s.outer * 0.02}`} />

@@ -30,7 +30,7 @@ export default function Contact() {
   const handleSubmit = e => {
     e.preventDefault();
     const body = encodeURIComponent(`Name: ${form.name}\nEmail: ${form.email}\nService of Interest: ${form.service}\n\nMessage:\n${form.message}`);
-    const subject = encodeURIComponent(form.subject || 'Career Services Enquiry — Candidate Help Desk');
+    const subject = encodeURIComponent(form.subject || 'Career Services Enquiry — Apex Resume Group');
     window.location.href = `mailto:alexismathis.resume.careers@gmail.com?subject=${subject}&body=${body}`;
     setSubmitted(true);
   };
