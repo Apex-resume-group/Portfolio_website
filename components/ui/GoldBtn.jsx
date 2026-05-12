@@ -1,3 +1,16 @@
+/**
+ * @typedef {{
+ *   children: import('react').ReactNode,
+ *   to?: string,
+ *   href?: string,
+ *   onClick?: import('react').MouseEventHandler<HTMLButtonElement>,
+ *   variant?: string,
+ *   size?: string,
+ *   className?: string,
+ *   [x: string]: any
+ * }} GoldBtnProps
+ */
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -15,7 +28,11 @@ const szs = {
   xl: 'px-10 py-5 text-lg',
 };
 
-export default function GoldBtn({ children, to, href, onClick, variant = 'gold', size = 'md', className = '', ...rest }) {
+/**
+ * @param {GoldBtnProps} props
+ */
+export default function GoldBtn(props) {
+  const { children, to, href, onClick, variant = 'gold', size = 'md', className = '', ...rest } = props;
   const cls = `inline-flex items-center justify-center gap-2 rounded-lg font-body transition-all duration-300 ${szs[size]} ${variants[variant]} ${className}`;
   if (to) return <Link to={to} className={cls} {...rest}>{children}</Link>;
   if (href) return <a href={href} target="_blank" rel="noopener noreferrer" className={cls} {...rest}>{children}</a>;
