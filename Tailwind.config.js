@@ -2,8 +2,9 @@
 module.exports = {
   darkMode: ["class"],
   content: [
-  "./index.html",
-  "./src/**/*.{js,ts,jsx,tsx}",
+     "./index.html",
+  "./*.{js,ts,jsx,tsx}",
+  "./components/**/*.{js,ts,jsx,tsx}",
 ],
   theme: {
     extend: {
@@ -50,21 +51,10 @@ module.exports = {
     },
   },
   safelist: [
-  {
-    pattern: /bg-brand-/,
-  },
-  {
-    pattern: /text-brand-/,
-  },
-  {
-    pattern: /border-brand-/,
-  },
-  {
-    pattern: /from-brand-/,
-  },
-  {
-    pattern: /to-brand-/,
-  },
-],
+    'bg-brand-crimson','bg-brand-black','bg-brand-gold','bg-brand-offwhite',
+    'text-brand-crimson','text-brand-black','text-brand-gold','text-brand-white',
+    'border-brand-crimson','border-brand-gold','border-brand-black',
+    'from-brand-crimson','to-brand-black',
+  ],
   plugins: [require("tailwindcss-animate")],
 };
