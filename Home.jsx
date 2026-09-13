@@ -415,7 +415,7 @@ export default function Home() {
               From Overlooked to Offer Letter —{' '}
               <em className="text-brand-gold not-italic">We've Done It 12,000 Times</em>
             </motion.h2>
-            <motion.p
+   <motion.p
               className="mt-5 font-body text-lg text-white/65 max-w-xl mx-auto"
               initial={{ opacity: 0, y: 30, scale: 0.95 }}
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
