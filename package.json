@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "echo 'skip'",
+    "build": "echo skip",
     "dev": "vite",
     "preview": "vite preview"
-  }
+  },
   "dependencies": {
     "@base44/sdk": "^0.8.26",
     "@base44/vite-plugin": "^1.0.10",
